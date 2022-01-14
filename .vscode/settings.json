@@ -1,0 +1,10 @@
+{
+    "Lua.diagnostics.globals": [
+        "cm",
+        "core",
+        "UIComponent",
+        "vfs",
+        "is_uicomponent",
+        "find_uicomponent"
+    ]
+}
