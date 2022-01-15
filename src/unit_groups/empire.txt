@@ -1,11 +1,12 @@
 artillery_wagon
 artillery
+blazing_sun
 demigryph
 greatswords
 halberdiers
 handgunners
 huntsmen
-knights
+knights_emp
 magic_machine
 outriders
 reiksguard
@@ -13,10 +14,12 @@ tank
 wagon
 
 ror
-handgunners_ror
-reiksguard_ror
 artillery_wagon_ror
 artillery_ror
-magic_machine_ror
 demigryph_ror
+flagellants_ror
+free_company_ror
 greatswords_ror
+handgunners_ror
+magic_machine_ror
+reiksguard_ror

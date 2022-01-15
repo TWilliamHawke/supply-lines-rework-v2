@@ -11,14 +11,17 @@ function Supply_lines_rework:get_unit_supply_params(unit_name, lord)
     return unit_cost, true;
   end;
 
-  unit_cost = unit_data[0];
+  unit_cost = unit_data[1] or 0;
+  unit_group = unit_data[2] or "";
   local lord_name = tostring(lord:character_subtype_key())
-  local free_cost = self.free_Units[unit_name.."-"..lord_name];
+  local lord_discount = self.group_discount[lord_name.."-"..unit_group] or 0;
   local lord_alias = self.lord_aliases[lord_name]
 
-  if free_cost ~= nil then
+  Supply_lines_rework:log("discount for "..lord_name.."-"..unit_group.." is "..tostring(lord_discount))
+
+  if lord_discount ~= 0 then
+    unit_cost = math.max(unit_cost + lord_discount, 0);
     self:log(unit_name.." in "..lord_name.." army will costs "..tostring(free_cost).." points");
-    unit_cost = free_cost;
     is_basic_cost = false;
   end
 
