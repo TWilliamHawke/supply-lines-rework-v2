@@ -1,0 +1,11 @@
+artillery
+depth_guard
+droppers
+gunners
+leviathan
+mournguls
+mobs
+necrofex
+prometheans
+syreens
+terrorgheist

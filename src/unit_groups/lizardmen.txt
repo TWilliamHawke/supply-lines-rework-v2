@@ -1,0 +1,13 @@
+bastiladons
+carnosaurs
+cold_one
+dread_saurian
+flying_units
+kroxigors
+razordons
+saurus
+salamanders
+skinks
+stegadons
+temple_guards
+troglodons

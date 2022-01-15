@@ -2,14 +2,16 @@ function Supply_lines_rework:get_unit_supply_params(unit_name, lord)
   self:logDebug("GET SUPPLY PARAMS FUNCTION IS STARTED");
 
   local is_basic_cost = true
-  local unit_cost = self.units_cost[unit_name]
-
+  local unit_cost = nil;
+  local unit_data = self.units_data[unit_name];
+  
 
   self:logDebug("BASE UNIT COST TAKEN");
-  if not lord then
+  if not lord or unit_data == nil then
     return unit_cost, true;
   end;
 
+  unit_cost = unit_data[0];
   local lord_name = tostring(lord:character_subtype_key())
   local free_cost = self.free_Units[unit_name.."-"..lord_name];
   local lord_alias = self.lord_aliases[lord_name]

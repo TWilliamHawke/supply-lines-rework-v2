@@ -1,0 +1,17 @@
+arachnaroks
+artillery
+big_uns_boar
+big_uns
+black_orcs
+chariots
+goblins
+goblin_spider
+giants
+monsters
+night_goblins
+savage
+savage_boar
+squig
+trolls
+wyverns
+wagon

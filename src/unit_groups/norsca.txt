@@ -1,0 +1,10 @@
+artillery
+chariots
+dragons
+fimirs
+giants
+mammoths
+manticore
+marauders
+skinwolves
+trolls

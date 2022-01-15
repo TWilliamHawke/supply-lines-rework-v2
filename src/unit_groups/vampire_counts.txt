@@ -1,0 +1,10 @@
+black_knights
+blood_knights
+chariots
+crypt_horrors
+ghosts
+ghouls
+grave_guard
+terrorgheist
+vargheists
+varghulf

@@ -1,0 +1,11 @@
+archers
+dragons
+feral
+hawks
+rangers
+stag_cav
+sisters_thorn
+spearmen
+trees
+wardancers
+zoats
