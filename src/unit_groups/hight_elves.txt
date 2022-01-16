@@ -1,5 +1,6 @@
 archers
 artillery
+avelorn
 chariots
 dragon_princes
 dragons
@@ -11,7 +12,6 @@ phoenixes
 phoenix_guard
 reavers
 silver_helms
-avelorn
 spearmen
 stealth_archers
 swordmasters

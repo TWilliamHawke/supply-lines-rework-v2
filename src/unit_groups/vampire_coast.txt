@@ -1,11 +1,13 @@
 artillery
 depth_guard
 droppers
-gunners
+deck_gunners
 leviathan
 mournguls
-mobs
+mobs_melee
+mobs_missile
 necrofex
-prometheans
+prometheans_melee
+prometheans_missile
 syreens
 terrorgheist

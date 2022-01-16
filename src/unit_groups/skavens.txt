@@ -11,6 +11,7 @@ missile_runners
 mortars
 plague_monks
 stormvermin
+stormfiend
 ratlings
 rat_ogres
 triads

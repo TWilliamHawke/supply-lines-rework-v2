@@ -32,7 +32,7 @@ function Supply_lines_rework:get_unit_supply_params(unit_name, lord)
       local bonus_skill = lord_skill_data[2] or "srw_skill"
       local bonus_skill2 = lord_skill_data[3] or "srw_skill"
       if lord:has_skill(bonus_skill) or lord:has_skill(bonus_skill2) then
-        lord_discount = potential_discount;
+        lord_discount = lord_discount + potential_discount;
       end
     end
   end

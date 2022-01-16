@@ -3,6 +3,7 @@ blood_knights
 chariots
 crypt_horrors
 ghosts
+ghost_cav
 ghouls
 grave_guard
 lahmian
@@ -10,3 +11,6 @@ terrorgheist
 vargheists
 varghulf
 vampiress
+
+ror
+none
