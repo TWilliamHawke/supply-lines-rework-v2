@@ -19,28 +19,30 @@ function Supply_lines_rework:get_unit_supply_params(unit_name, lord)
 
   Supply_lines_rework:log("discount for "..lord_name.."-"..unit_group.." is "..tostring(lord_discount))
 
-  if lord_discount ~= 0 then
-    unit_cost = math.max(unit_cost + lord_discount, 0);
-    self:log(unit_name.." in "..lord_name.." army will costs "..tostring(free_cost).." points");
-    is_basic_cost = false;
-  end
 
   self:logDebug("LORD TYPE CHECKED");
 
 
   if lord_alias ~= nil then
-    local lord_skill_data = self.lord_Skills_Cost[unit_name.."-"..lord_alias];
+    local lord_skill_data = self.lord_skills_discount[lord_alias.."-"..unit_group];
 
     if lord_skill_data ~= nil then
+      local potential_discount = lord_skill_data[1] or 0;
 
-      local bonus_skill = lord_skill_data[1] or "srw_skill"
+      local bonus_skill = lord_skill_data[2] or "srw_skill"
       local bonus_skill2 = lord_skill_data[3] or "srw_skill"
       if lord:has_skill(bonus_skill) or lord:has_skill(bonus_skill2) then
-        is_basic_cost = false
-        unit_cost = lord_skill_data[2];
+        lord_discount = potential_discount;
       end
     end
   end
+
+  if lord_discount ~= 0 and unit_cost ~= nil then
+    unit_cost = math.max(unit_cost + lord_discount, 0);
+    self:log(unit_name.." in "..lord_name.." army costs "..tostring(unit_cost).." points");
+    is_basic_cost = false;
+  end
+
 
   self:logDebug("LORD SKILL CHECKED");
 

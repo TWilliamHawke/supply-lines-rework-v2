@@ -1,4 +1,5 @@
 artillery
+berserkers
 chariots
 dragons
 fimirs

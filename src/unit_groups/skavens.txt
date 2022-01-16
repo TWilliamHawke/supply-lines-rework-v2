@@ -1,4 +1,3 @@
-artillery
 abomination
 brood_horror
 canons

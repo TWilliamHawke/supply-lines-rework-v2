@@ -5,6 +5,8 @@ crypt_horrors
 ghosts
 ghouls
 grave_guard
+lahmian
 terrorgheist
 vargheists
 varghulf
+vampiress

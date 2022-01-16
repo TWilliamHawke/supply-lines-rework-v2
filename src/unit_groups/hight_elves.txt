@@ -5,13 +5,13 @@ dragon_princes
 dragons
 lions
 lion_chariots
-lothern_sea_guard
+sea_guard
 mistwalkers
 phoenixes
 phoenix_guard
 reavers
 silver_helms
-sisters_of_avelorn
+avelorn
 spearmen
 stealth_archers
 swordmasters

@@ -21,5 +21,6 @@ flagellants_ror
 free_company_ror
 greatswords_ror
 handgunners_ror
+huntsmen_ror
 magic_machine_ror
 reiksguard_ror

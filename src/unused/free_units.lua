@@ -462,7 +462,6 @@ Supply_lines_rework.free_Units = {
     ["vmp_mounted_sword-vmp_mannfred_von_carstein"] = 1, --black
     ["vmp_vampiress-pro02_vmp_isabella_von_carstein"] = 2, --bella
     ["dec_hell_knights-vmp_mannfred_von_carstein"] = 1,
-    ["vmp_mousillon_unit_black_knights_hellsteed"] = 0,
     ["ror_vamp_doomr-vmp_mannfred_von_carstein"] = 0, -- black kn
     ["ror_vamp_templewights-vmp_mannfred_von_carstein"] = 1, --grave g
     ["ror_vamp_helmut-vmp_mannfred_von_carstein"] = 1, --grave g
