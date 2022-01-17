@@ -47,6 +47,8 @@ Supply_lines_rework.lord_aliases = {
     ["wh2_dlc12_skv_warlock_master"] = "Warlock",
     ["Thom_vulkan_moltskin_searflesh"] = "Vulcan",
     ["thom_iron_mask"] = "Ferric",
+    ["Thom_vulkan_moltskin_searflesh"] = "Vulkan",
+    
   --vcoast
     ["wh2_dlc14_skv_master_assassin"] = "Assassin",
     ["wh2_dlc11_cst_admiral_fem"] = "Pirate",
