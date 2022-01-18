@@ -1,5 +1,6 @@
 artillery_classic
 artillery_gun
+artillery_fire
 flying_machine
 hammerers
 ironbreakers
@@ -12,6 +13,11 @@ slayers
 thunderers
 warriors
 
+land_machine
+golem
+huskarls
+elo_defence
+elo_attack
 
 
 

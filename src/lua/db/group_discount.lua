@@ -18,6 +18,20 @@ Supply_lines_rework.group_discount = {
     ["dwf_thorgrim_grudgebearer-hammerers"] = -2,
     ["wh2_dlc17_dwf_thorek-artillery_classic"] = -2,
     ["wh2_dlc17_dwf_thorek-quarrellers"] = -2,
+    --mods
+    ["wh_main_dwf_cha_greybeard-flying_machine"] = -2,
+    ["wh_main_dwf_cha_greybeard-land_machine"] = -2,
+    ["dwf_kraka_drak-huskarls"] = -2,
+    ["dwf_sven_hasselfriesian-warriors"] = -2,
+    ["dwf_sven_hasselfriesian-artillery_classic"] = -2,
+    ["dwf_sven_hasselfriesian-artillery_gun"] = -2,
+    ["dwf_sven_hasselfriesian-artillery_fire"] = -2,
+    ["dwf_alrik_ranulfsson-longbeards"] = -2,
+    ["dwf_brokk_ironpick-irondrakes"] = -2,
+    ["dwf_brokk_ironpick-flying_machine"] = -2,
+    ["dwf_brokk_ironpick-artillery_fire"] = -2,
+    ["dwf_rorek_granitehand-ironbreakers"] = -2,
+    ["dwf_rorek_granitehand-miners"] = -2,
   --greekskins
     ["grn_grimgor_ironhide-black_orcs"] = -2,
     ["grn_grimgor_ironhide-big_uns"] = -2,
@@ -37,6 +51,9 @@ Supply_lines_rework.group_discount = {
     ["wh2_dlc15_grn_orc_warboss_oglok-big_uns"] = -2,
     ["wh2_dlc15_grn_goblin_great_shaman_raknik-goblin_spider"] = -2,
     ["wh2_dlc15_grn_goblin_great_shaman_raknik-arachnaroks"] = -2,
+    --mods
+    ["grn_gorbad_ironclaw-big_uns_boar"] = -2,
+    ["grn_gorbad_ironclaw-big_uns"] = -2,
   --vcounts
     ["vmp_mannfred_von_carstein-black_knights"] = -2,
     ["dlc04_vmp_helman_ghorst-grave_guard"] = -2,
