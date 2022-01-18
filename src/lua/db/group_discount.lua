@@ -40,11 +40,13 @@ Supply_lines_rework.group_discount = {
     ["dlc06_grn_skarsnik-night_goblins"] = -2,
     ["dlc06_grn_skarsnik-goblins"] = -2,
     ["dlc06_grn_skarsnik-goblin_spider"] = -2,
+    ["dlc06_grn_skarsnik-goblin_wolves"] = -2,
     ["dlc06_grn_wurrzag_da_great_prophet-savage"] = -2,
     ["dlc06_grn_wurrzag_da_great_prophet-savage_boar"] = -2,
     ["wh2_dlc15_grn_grom_the_paunch-wagon"] = -2,
     ["wh2_dlc15_grn_grom_the_paunch-goblins"] = -2,
     ["wh2_dlc15_grn_grom_the_paunch-goblin_spider"] = -2,
+    ["wh2_dlc15_grn_grom_the_paunch-goblin_wolves"] = -2,
     ["wh2_dlc15_grn_orc_warboss_oglok-big_uns_boar"] = -2,
     ["wh2_dlc15_grn_orc_warboss_oglok-savage_boar"] = -2,
     ["wh2_dlc15_grn_orc_warboss_oglok-savage"] = -2,
@@ -54,6 +56,15 @@ Supply_lines_rework.group_discount = {
     --mods
     ["grn_gorbad_ironclaw-big_uns_boar"] = -2,
     ["grn_gorbad_ironclaw-big_uns"] = -2,
+    ["ws_grn_grak_beastbasha-arachnaroks"] = -2,
+    ["ws_grn_grak_beastbasha-giants"] = -2,
+    ["ws_grn_grak_beastbasha-idols"] = -2,
+    ["ws_grn_grak_beastbasha-other_monsters"] = -2,
+    ["ws_grn_grak_beastbasha-wyverns"] = -2,
+    ["ws_grn_grak_beastbasha-trolls"] = -2,
+    ["ws_grn_grak_beastbasha-savage"] = -2,
+    ["ws_grn_grak_beastbasha-hydra"] = -2,
+    ["ws_grn_grak_beastbasha-savage_boar"] = -2,
   --vcounts
     ["vmp_mannfred_von_carstein-black_knights"] = -2,
     ["dlc04_vmp_helman_ghorst-grave_guard"] = -2,
@@ -155,4 +166,9 @@ Supply_lines_rework.group_discount = {
     ["wh2_dlc11_cst_cylostra-mournguls"] = -2,
     ["wh2_dlc11_cst_cylostra-syreens"] = -2,
     ["wh2_dlc11_cst_noctilus-necrofex"] = -2,
+  --mods
+    ["arb_fatandira-nomad"] = -2,
+    ["arb_golden_magus-genie"] = -2,
+    ["arb_golden_magus-carpet"] = -2,
+
 }

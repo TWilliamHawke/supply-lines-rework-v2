@@ -4,6 +4,8 @@ chariots
 dragons
 fimirs
 giants
+horsemen
+hounds
 mammoths
 manticore
 marauders
