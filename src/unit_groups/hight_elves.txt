@@ -16,3 +16,6 @@ spearmen
 stealth_archers
 swordmasters
 trees
+
+
+sea_company

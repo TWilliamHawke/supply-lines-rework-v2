@@ -76,6 +76,7 @@ Supply_lines_rework.lord_aliases = {
   --Old world
     ["wh_dlc08_nor_wulfrik"] = "Wulfrik",
     ["dlc04_emp_volkmar"] = "Volkmar",
+    ["mixu_elspeth_von_draken"] = "Elspeth",
     ["wh_dlc08_nor_throgg"] = "Throgg",
     ["wh2_dlc13_emp_cha_huntsmarshal_0"] = "Hunter",
     ["emp_balthasar_gelt"] = "Gelt",
@@ -94,6 +95,7 @@ Supply_lines_rework.lord_aliases = {
     ["wh2_dlc16_wef_malicious_ancient_treeman_shadows"] = "Treeman",
     ["dlc05_wef_ancient_treeman"] = "Treeman",
     ["roy_zoat_lord"] = "Zoat", 
+    ["wef_daith"] = "wef_daith", 
   --TEB
     --["teb_tilea"] = "Tileaman",
     --["teb_borgio_the_besieger"] = "Besieger",

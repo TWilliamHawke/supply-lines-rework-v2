@@ -12,6 +12,21 @@ Supply_lines_rework.lord_skills_discount = {
     ["Gelt-magic_machine"] = { -1, "wh_dlc08_skill_emp_lord_unique_balthasar_unique_3" },
     ["Gelt-magic_machine_ror"] = { -1, "wh_dlc08_skill_emp_lord_unique_balthasar_unique_3" },
     ["Gelt-tank"] = { -1, "wh_dlc08_skill_emp_lord_unique_balthasar_unique_3" },
+
+    ["Ulric-ulric_cult"] = { -2, "ulric_cult_of_ulric_stats" },
+    ["Ulric-ulric_cult_ror"] = { -2, "ulric_cult_of_ulric_stats" },
+    ["Elspeth-artillery"] = { -2, "mixu_emp_elspeth_von_draken_special_guns_of_nuln" },
+    ["Elspeth-artillery_wagon"] = { -2, "mixu_emp_elspeth_von_draken_special_guns_of_nuln" },
+    ["Elspeth-artillery_wagon_ror"] = { -2, "mixu_emp_elspeth_von_draken_special_guns_of_nuln" },
+    ["Elspeth-artillery_ror"] = { -2, "mixu_emp_elspeth_von_draken_special_guns_of_nuln" },
+    ["Helborg-reiksguard"] = { -1, "skill_emp_lord_unique_campaign_kurt_helborg_grand_order" },
+    ["Helborg-reiksguard_ror"] = { -1, "skill_emp_lord_unique_campaign_kurt_helborg_grand_order" },
+    ["Helborg-greatswords"] = { -1, "skill_emp_lord_unique_campaign_kurt_helborg_for_emperor" },
+    ["Helborg-greatswords_ror"] = { -1, "skill_emp_lord_unique_campaign_kurt_helborg_for_emperor" },
+    ["Helborg-halberdiers"] = { -1, "skill_emp_lord_unique_campaign_kurt_helborg_reiksguard_supply" },
+    ["Helborg-handgunners"] = { -1, "skill_emp_lord_unique_campaign_kurt_helborg_reiksguard_supply" },
+    ["Helborg-handgunners_ror"] = { -1, "skill_emp_lord_unique_campaign_kurt_helborg_reiksguard_supply" },
+    
   --dwarfs
     ["Whitedwarf-irondrakes"] = { -2, "wh2_dlc17_dwf_grombrindal_unique_rouse_the_engineers" },
     ["Whitedwarf-artillery_classic"] = { -1, "wh2_dlc17_dwf_grombrindal_unique_rouse_the_engineers" },
@@ -88,6 +103,7 @@ Supply_lines_rework.lord_skills_discount = {
   --wood elves
     ["Treeman-trees"] = { -1, "wh_dlc05_skill_wef_ancient_treeman_unique_damage_resistance_treekin" },
     ["Zoat-zoats"] = { -1, "roy_zoat_lord_army_defense_zoats" },
+    ["wef_daith-archers"] = { -2, "mixu_wef_daith_special_quality_arrows" },
   --Norsca
     ["Wulfrik-skinwolves"] = { -1, "wh_dlc08_skill_nor_wulfrik_battle_fervent_creatures" },
     ["Throgg-fimirs"] = { -1, "wh_dlc08_skill_nor_throgg_unique_king_of_trolls" },
