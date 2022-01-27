@@ -3,6 +3,7 @@ artillery
 blazing_sun
 demigryph
 greatswords
+flagellants
 halberdiers
 handgunners
 huntsmen
@@ -34,3 +35,6 @@ ulric_cult_ror
 knight_white_wolf_ror
 taal_cult
 rhya
+elite_hangunners
+elite_hangunners_ror
+knights_other

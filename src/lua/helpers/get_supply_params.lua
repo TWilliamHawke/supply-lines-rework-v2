@@ -12,7 +12,7 @@ function Supply_lines_rework:get_unit_supply_params(unit_name, lord)
   end;
 
   unit_cost = unit_data[1] or 0;
-  unit_group = unit_data[2] or "";
+  local unit_group = unit_data[2] or "";
   local lord_name = tostring(lord:character_subtype_key())
   local lord_discount = self.group_discount[lord_name.."-"..unit_group] or 0;
   local lord_alias = self.lord_aliases[lord_name]
@@ -32,6 +32,9 @@ function Supply_lines_rework:get_unit_supply_params(unit_name, lord)
       local bonus_skill = lord_skill_data[2] or "srw_skill"
       local bonus_skill2 = lord_skill_data[3] or "srw_skill"
       if lord:has_skill(bonus_skill) or lord:has_skill(bonus_skill2) then
+        local trait_level = lord:trait_points(bonus_skill);
+        self:log("trait level is"..tostring(trait_level));
+  
         lord_discount = lord_discount + potential_discount;
       end
     end

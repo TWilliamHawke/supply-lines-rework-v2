@@ -11,3 +11,5 @@ manticore
 marauders
 skinwolves
 trolls
+
+dinos

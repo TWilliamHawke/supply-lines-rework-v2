@@ -45,7 +45,6 @@ Supply_lines_rework.lord_aliases = {
     ["wh2_dlc09_skv_tretch_craventail"] = "Tretch",
     ["wh2_dlc12_skv_ikit_claw"] = "Ikit",
     ["wh2_dlc12_skv_warlock_master"] = "Warlock",
-    ["Thom_vulkan_moltskin_searflesh"] = "Vulcan",
     ["thom_iron_mask"] = "Ferric",
     ["Thom_vulkan_moltskin_searflesh"] = "Vulkan",
     

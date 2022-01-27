@@ -2,10 +2,11 @@ archers
 dragons
 feral
 hawks
+light_cav
 rangers
 stag_cav
 sisters_thorn
-spearmen
+eternal_guard
 trees
 wardancers
 zoats

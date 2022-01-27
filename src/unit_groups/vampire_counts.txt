@@ -11,10 +11,10 @@ skeletons
 terrorgheist
 vargheists
 varghulf
-vampiress
 
 ror
 none
 
 dragons
+vampiress
 artillery

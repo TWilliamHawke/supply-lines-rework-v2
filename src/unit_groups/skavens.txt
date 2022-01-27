@@ -14,7 +14,6 @@ mortars
 plague_monks
 slaves
 stormvermin
-stormfiend
 ratlings
 rat_ogres
 triads
@@ -23,4 +22,6 @@ warp_grinder
 wolf_rats
 
 neck_cutters
+stormfiend
 arachnarat
+monsters
