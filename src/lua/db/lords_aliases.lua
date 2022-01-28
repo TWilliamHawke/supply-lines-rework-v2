@@ -21,6 +21,7 @@ Supply_lines_rework.lord_aliases = {
     ["wh2_dlc15_hef_archmage_light"] = "Hef_lord",
     ["wh2_dlc15_hef_archmage_metal"] = "Hef_lord",
     ["wh2_dlc15_hef_archmage_shadows"] = "Hef_lord",
+    ["wh2_main_hef_prince_caledor"] = "Hef_lord",
     ["AK_hef_seahelm"] = "Hef_lord",
     ["wh2_main_hef_prince"] = "Hef_lord",
     ["wh2_main_hef_princess"] = "Hef_lord",

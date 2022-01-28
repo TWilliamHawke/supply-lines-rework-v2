@@ -38,3 +38,4 @@ rhya
 elite_hangunners
 elite_hangunners_ror
 knights_other
+knights_other_ror

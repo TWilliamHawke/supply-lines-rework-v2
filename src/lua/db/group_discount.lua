@@ -147,6 +147,7 @@ Supply_lines_rework.group_discount = {
   --hight elves
     ["wh2_main_hef_tyrion-archers"] = -2,
     ["wh2_main_hef_tyrion-spearmen"] = -2,
+    ["wh2_main_hef_tyrion-swordsmen"] = -2,
     ["wh2_main_hef_tyrion-sea_guard"] = -1,
     ["wh2_main_hef_tyrion-silver_helms"] = -2,
     ["wh2_dlc10_hef_alith_anar-stealth_archers"] = -2,
@@ -237,5 +238,7 @@ Supply_lines_rework.group_discount = {
     ["arb_fatandira-nomad"] = -2,
     ["arb_golden_magus-genie"] = -2,
     ["arb_golden_magus-carpet"] = -2,
+    ["roy_ogr_slaughtermaster-ogres"] = -1,
+    ["roy_ogr_tyrant-ogres"] = -1,
 
 }

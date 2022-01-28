@@ -6,7 +6,6 @@ ghosts
 ghost_cav
 ghouls
 grave_guard
-lahmian
 skeletons
 terrorgheist
 vargheists
@@ -18,3 +17,4 @@ none
 dragons
 vampiress
 artillery
+lahmian
