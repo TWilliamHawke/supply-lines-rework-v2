@@ -5,6 +5,7 @@
         "UIComponent",
         "vfs",
         "is_uicomponent",
-        "find_uicomponent"
+        "find_uicomponent",
+        "effect"
     ]
 }

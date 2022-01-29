@@ -2,19 +2,18 @@ function Supply_lines_rework:construct_treasury_tooltip(faction)
   self:logDebug("Constructor IS STARTED");
 
   local culture = faction:subculture();
-  local upkeep_mult = self:get_player_upkeep_mult();
   local force_list = faction:military_force_list();
   local lord_text = self:get_subculture_text(culture)
-  local supply_points, supply_balance = self:get_faction_supply(faction);
-  local upkeep_percent = self:get_upkeep_from_supply(supply_points, upkeep_mult);
+  local upkeep_percent, supply_points, supply_balance = self:get_player_faction_supply(faction);
 
+  -- add 1% per each army (only for tooltip)
   for i = 0, force_list:num_items() - 1 do
     local force = force_list:item_at(i);
 
     if self:check_army_type(force, false) then
       upkeep_percent = upkeep_percent + 1;
-    end; --of army check
-  end; --of force_list loop
+    end;
+  end;
 
   --first army dont have supply lines modificator
   upkeep_percent = upkeep_percent - 1;
