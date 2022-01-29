@@ -20,5 +20,6 @@ Supply_lines_rework = {
     ui_faction_check = nil,
     block_scripts = false,
     game_lang = nil,
+    subculture_text = "",
 }
 

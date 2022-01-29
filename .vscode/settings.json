@@ -6,6 +6,7 @@
         "vfs",
         "is_uicomponent",
         "find_uicomponent",
-        "effect"
+        "effect",
+        "mct"
     ]
 }

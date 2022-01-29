@@ -98,20 +98,19 @@ core:add_listener(
   true
 )
 
--- core:add_listener(
---   "SRW_UnitTooltip_lord_upkeep",
---   "ComponentMouseOn",
---   function(context)
---     local component = UIComponent(context.component):Id()
---     return component == "dy_upkeep" and player_supply_custom_mult ~=0 and uiFactionChecker()
---   end,
---   function(context)
---     local component = UIComponent(context.component)
+core:add_listener(
+  "SRW_UnitTooltip_lord_upkeep",
+  "ComponentMouseOn",
+  function(context)
+    local component = UIComponent(context.component):Id()
+    return component == "dy_upkeep" and self.player_supply_custom_mult ~=0 and self:uiFactionChecker()
+  end,
+  function(context)
+    local component = UIComponent(context.component)
 
---     set_army_supply_tooltip(component)
-    
---   end,
---   true
--- )
+    self:change_army_tooltip(component)
+  end,
+  true
+)
 
 end;
