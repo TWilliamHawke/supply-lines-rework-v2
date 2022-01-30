@@ -40,7 +40,7 @@ Supply_lines_rework.modded_subculture_text = {
   ["moon-wh2_main_sc_def_dark_elves"] = "SRW_Subculture_Text_moon_def",
   ["moon-wh_main_sc_grn_greenskins"] = "SRW_Subculture_Text_moon_grn",
   ["mung-wh_main_sc_nor_norsca"] = "SRW_Subculture_Text_mung",
-
+  ["soll-wh_main_sc_emp_empire"] = "SRW_Subculture_Text_solland",
 }
 
 Supply_lines_rework.supported_mods_prefix = {
@@ -57,7 +57,8 @@ Supply_lines_rework.supported_mods_prefix = {
   {"ui/units/icons/dec_lahmian.png", "deco-"},
   {"script/frontend/mod/volilosh_frontend.lua", "voli-"},
   {"script/frontend/mod/moon_frontend.lua", "moon-"},
-  {"script/campaign/main_warhammer/mod/thom_mung.lua", "mung-"}
+  {"script/campaign/main_warhammer/mod/thom_mung.lua", "mung-"},
+  {"script/campaign/main_warhammer/mod/eldred_start.lua", "soll-"}
 }
 
 Supply_lines_rework.no_balance_lords = {

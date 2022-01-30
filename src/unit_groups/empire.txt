@@ -1,7 +1,10 @@
+archers
 artillery_wagon
 artillery
 blazing_sun
+crossbowmen
 demigryph
+free_company
 greatswords
 flagellants
 halberdiers
@@ -17,6 +20,7 @@ tank
 wagon
 
 ror
+archers_ror
 artillery_wagon_ror
 artillery_ror
 demigryph_ror
