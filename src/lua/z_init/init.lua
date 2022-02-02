@@ -1,4 +1,4 @@
-function supply_lines_rework_w3()
+local function supply_lines_rework_init()
     Supply_lines_rework:create_new_log();
     Supply_lines_rework:add_player_listeners();
     Supply_lines_rework:add_ui_listeners();
@@ -6,3 +6,4 @@ function supply_lines_rework_w3()
     Supply_lines_rework:add_mct_listeners();
 end;
 
+supply_lines_rework_init();

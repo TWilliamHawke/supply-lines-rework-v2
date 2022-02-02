@@ -3,7 +3,6 @@ function Supply_lines_rework:construct_treasury_tooltip(faction)
 
   local culture = faction:subculture();
   local force_list = faction:military_force_list();
-  local lord_text = self:get_subculture_text(culture)
   local upkeep_percent, supply_points, supply_balance = self:get_player_faction_supply(faction);
 
   -- add 1% per each army (only for tooltip)
@@ -27,7 +26,7 @@ function Supply_lines_rework:construct_treasury_tooltip(faction)
     supply_balance_text = self:localizator("SRW_supply_balance_text")..supply_balance
   end
 
-  local tooltip_text = self:localizator("SRW_treasury_tooltip_main")..lord_text..supply_text..self:localizator("SRW_treasury_tooltip_upkeep")..tostring(upkeep_percent).."%"..supply_balance_text
+  local tooltip_text = self:localizator("SRW_treasury_tooltip_main")..supply_text..self:localizator("SRW_treasury_tooltip_upkeep")..tostring(upkeep_percent).."%"..supply_balance_text
 
   self:logDebug("-------------");
   self:logDebug("Constructor IS FINISHED");

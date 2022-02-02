@@ -16,8 +16,8 @@ function Supply_lines_rework:change_army_tooltip(component)
   for key, value in pairs(self.group_discount) do
     local start_pos, end_pos = key:find(lord_name);
     if(start_pos) then
-      local group_name = key:sub(end_pos + 1, -1);
-      text = text.."\n"..group_name..": "..tostring(value);
+      local group_name = key:sub(end_pos + 2, -1);
+      text = text.."\n[[col:yellow]]"..group_name..":[[/col]] "..tostring(value);
     end
   end;
 

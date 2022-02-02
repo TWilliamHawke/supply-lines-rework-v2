@@ -5,7 +5,6 @@ function Supply_lines_rework:add_mct_listeners()
     true,
     function(context)
       self:init_mcm(context)
-      self.subculture_text = "";
     end,
     true
   )
@@ -19,7 +18,6 @@ function Supply_lines_rework:add_mct_listeners()
     function(context)
       self:init_mcm(context)
       self:finalize_mcm()
-      self.subculture_text = "";
     end,
     true
   )
