@@ -4,7 +4,7 @@ function Supply_lines_rework:add_ai_listeners()
   "FactionTurnStart",
   function(context)
     local faction = context:faction()
-    return (not faction:is_human() and not self:srw_faction_is_horde(faction) and not (faction:culture() == "wh2_dlc09_tmb_tomb_kings"))
+    return (not faction:is_human() and not self:faction_is_horde(faction) and not (faction:culture() == "wh2_dlc09_tmb_tomb_kings"))
   end,  
   -- true,
   function(context) 

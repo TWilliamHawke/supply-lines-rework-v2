@@ -34,7 +34,7 @@ function Supply_lines_rework:set_building_tooltip(component)
     supply_balance_change = "+"..supply_balance_change
   end
 
-  local supply_text = supply_balance_change.." "..self:localizator("SRW_building_supply")
+  local supply_text = supply_balance_change.." "..self:get_localised_string("SRW_building_supply")
   self:logDebug("supply_balance_text was set correctly");
 
   cm:callback(function()

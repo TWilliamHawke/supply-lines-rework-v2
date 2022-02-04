@@ -8,7 +8,7 @@ function Supply_lines_rework:set_unit_tooltip(component, text)
 
   local component_name = component:Id();
   local unit_name = string.gsub(component_name, text, "")
-  local unit_cost , is_basic_cost = self:get_unit_supply_params(unit_name, self.selected_character)
+  local unit_cost, basic_cost = self:get_unit_supply_params(unit_name, self.selected_character)
 
   self:logDebug("SET SUPPLY TEXT FUNCTION IS STARTED");
 
@@ -16,7 +16,7 @@ function Supply_lines_rework:set_unit_tooltip(component, text)
   if unit_cost == nil then
     supply_text = self:get_unknown_text()
   else
-    supply_text = self:set_supply_text(unit_cost, is_basic_cost)
+    supply_text = self:construct_unit_supply_text(unit_cost, basic_cost, "SRW_unit_consume_future")
   end
   self:logDebug("SET SUPPLY TEXT FUNCTION IS FINISHED");
 

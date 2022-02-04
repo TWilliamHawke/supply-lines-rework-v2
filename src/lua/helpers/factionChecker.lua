@@ -9,7 +9,7 @@ function Supply_lines_rework:factionChecker(faction)
   if not faction:is_human() then
     return false
   end
-  if self:srw_faction_is_horde(faction) then
+  if self:faction_is_horde(faction) then
     return false
   end
   if culture == "wh_main_brt_bretonnia" then

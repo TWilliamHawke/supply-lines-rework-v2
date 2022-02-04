@@ -7,12 +7,12 @@ function Supply_lines_rework:set_tooltip_text_treasury(faction, component_name)
 
   local tooltip_text = ""
 
-  if self:srw_faction_is_horde(faction) or culture == "wh_main_sc_nor_warp" or culture == "wh_main_sc_nor_troll" then
-    tooltip_text = self:localizator("SRW_Subculture_Text_hordes")
+  if self:faction_is_horde(faction) or culture == "wh_main_sc_nor_warp" or culture == "wh_main_sc_nor_troll" then
+    tooltip_text = self:get_localised_string("SRW_Subculture_Text_hordes")
   elseif culture == "wh2_dlc09_sc_tmb_tomb_kings" then
-    tooltip_text = self:localizator("SRW_Subculture_Text_tomb_kings")
+    tooltip_text = self:get_localised_string("SRW_Subculture_Text_tomb_kings")
   elseif culture == "wh_main_sc_brt_bretonnia" then
-    tooltip_text = self:localizator("SRW_Subculture_Text_bretonnia")
+    tooltip_text = self:get_localised_string("SRW_Subculture_Text_bretonnia")
   elseif self.player_supply_custom_mult == 0 then
     tooltip_text = "Your units doesn`t need addition supply"
   else

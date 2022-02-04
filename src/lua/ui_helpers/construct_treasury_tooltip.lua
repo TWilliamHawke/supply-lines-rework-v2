@@ -17,16 +17,16 @@ function Supply_lines_rework:construct_treasury_tooltip(faction)
   --first army dont have supply lines modificator
   upkeep_percent = upkeep_percent - 1;
 
-  local supply_text = self:localizator("SRW_treasury_tooltip_supply")
+  local supply_text = self:get_localised_string("SRW_treasury_tooltip_supply")
   supply_text = string.gsub(supply_text, "SRW_supply", tostring(supply_points))
 
   local supply_balance_text = ""
 
   if self.enable_supply_balance and not (culture == "wh_dlc05_sc_wef_wood_elves") then
-    supply_balance_text = self:localizator("SRW_supply_balance_text")..supply_balance
+    supply_balance_text = self:get_localised_string("SRW_supply_balance_text")..supply_balance
   end
 
-  local tooltip_text = self:localizator("SRW_treasury_tooltip_main")..supply_text..self:localizator("SRW_treasury_tooltip_upkeep")..tostring(upkeep_percent).."%"..supply_balance_text
+  local tooltip_text = self:get_localised_string("SRW_treasury_tooltip_main")..supply_text..self:get_localised_string("SRW_treasury_tooltip_upkeep")..tostring(upkeep_percent).."%"..supply_balance_text
 
   self:logDebug("-------------");
   self:logDebug("Constructor IS FINISHED");

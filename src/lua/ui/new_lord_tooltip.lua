@@ -33,13 +33,13 @@ function Supply_lines_rework:set_new_lord_tooltip(component)
   self:logDebug("future supply penalty is "..tostring(future_supply_penalty))
 
 
-  local tooltip_text = self:localizator("SRW_new_lord_supply_balance")..supply_balance..self:localizator("SRW_new_lord_decrease")..supply_decreasing..self:localizator("SRW_new_lord_consumption")..tostring(future_supply_penalty - current_supply_penalty)
+  local tooltip_text = self:get_localised_string("SRW_new_lord_supply_balance")..supply_balance..self:get_localised_string("SRW_new_lord_decrease")..supply_decreasing..self:get_localised_string("SRW_new_lord_consumption")..tostring(future_supply_penalty - current_supply_penalty)
 
   self:logDebug("tooltip text finished")
   self:logDebug("---------------------")
 
   if future_supply_penalty > 20 then
-    tooltip_text = tooltip_text..self:localizator("SRW_new_lord_suggestion")
+    tooltip_text = tooltip_text..self:get_localised_string("SRW_new_lord_suggestion")
   end;
 
   if is_uicomponent(component) then 

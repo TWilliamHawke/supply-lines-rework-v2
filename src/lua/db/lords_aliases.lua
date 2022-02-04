@@ -32,9 +32,10 @@ Supply_lines_rework.lord_aliases = {
     ["AK_aislinn"] = "Seaguard",
     ["volilosh"] = "Volilosh",
   --lizards
-    ["wh2_main_lzd_saurus_old_blood"] = "Zaurus",
-    ["wh2_main_lzd_kroq_gar"] = "Zaurus",
-    ["wh2_dlc13_lzd_gor_rok"] = "Zaurus",
+    ["wh2_main_lzd_saurus_old_blood"] = "Lzd_lord",
+    ["wh2_main_lzd_kroq_gar"] = "Lzd_lord",
+    ["wh2_dlc13_lzd_gor_rok"] = "Lzd_lord",
+    ["wh2_dlc12_lzd_tiktaqto"] = "Lzd_lord",
     ["wh2_dlc12_lzd_red_crested_skink_chief"] = "Skink",
     ["wh2_dlc12_lzd_red_crested_skink_chief_legendary"] = "Skink",
     ["wh2_dlc13_lzd_red_crested_skink_chief_horde"] = "Skink",
@@ -48,7 +49,7 @@ Supply_lines_rework.lord_aliases = {
     ["wh2_dlc12_skv_warlock_master"] = "Warlock",
     ["thom_iron_mask"] = "Ferric",
     ["Thom_vulkan_moltskin_searflesh"] = "Vulkan",
-    
+
   --vcoast
     ["wh2_dlc14_skv_master_assassin"] = "Assassin",
     ["wh2_dlc11_cst_admiral_fem"] = "Pirate",

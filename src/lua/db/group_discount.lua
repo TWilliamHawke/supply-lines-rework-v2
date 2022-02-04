@@ -113,7 +113,6 @@ Supply_lines_rework.group_discount = {
     ["dwf_kazador_dragonslayer-ironbreakers"] = -2,
     ["dwf_kazador_dragonslayer-miners"] = -2,
     ["dwf_bloodline_grimm_burloksson-flying_machine"] = -2,
-
   --greekskins
     ["grn_grimgor_ironhide-black_orcs"] = -2,
     ["grn_grimgor_ironhide-big_uns"] = -2,
@@ -150,7 +149,6 @@ Supply_lines_rework.group_discount = {
     ["grn_gorfang_rotgut-big_uns_boar"] = -2,
     ["grn_gorfang_rotgut-big_uns"] = -2,
     ["grn_gorfang_rotgut-chariots"] = -2,
-
   --vcounts
     ["vmp_mannfred_von_carstein-black_knights"] = -2,
     ["dlc04_vmp_helman_ghorst-grave_guard"] = -2,
@@ -165,7 +163,6 @@ Supply_lines_rework.group_discount = {
     ["nor_egil_styrbjorn-skinwolves"] = -2,
     ["thm_skeggi_losterikson-marauders"] = -2,
     ["thm_skeggi_losterikson-dinos"] = -2,
-    
   --wood elves
     ["dlc05_wef_orion-stag_cav"] = -2,
     ["dlc05_wef_durthu-trees"] = -2,
@@ -198,7 +195,6 @@ Supply_lines_rework.group_discount = {
     ["hef_bloodline_caradryan-phoenix_guard"] = -2,
     ["AK_aislinn-sea_company"] = -2,
     ["AK_aislinn-sea_guard"] = -2,
-
   --dark elves
     ["wh2_main_def_malekith-black_guard"] = -2,
     ["wh2_main_def_malekith-darkshards"] = -2,
