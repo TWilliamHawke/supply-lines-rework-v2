@@ -227,7 +227,7 @@ Supply_lines_rework.group_discount = {
     ["wh2_dlc16_skv_throt_the_unclean-abomination"] = -2,
     ["wh2_dlc16_skv_throt_the_unclean-brood_horror"] = -2,
     ["wh2_dlc16_skv_throt_the_unclean-stormfiend"] = -1,
-    ["wh2_dlc16_skv_throt_the_unclean-monsters"] = -1,
+    ["wh2_dlc16_skv_throt_the_unclean-monsters"] = -2,
     --clans
     ["Thom_vulkan_moltskin_searflesh-warpfire_thrower"] = -2,
     ["skv_feskit-stormvermin"] = -2,

@@ -4,7 +4,7 @@ function Supply_lines_rework:mct_finalize()
   if not self:factionChecker(faction) then
     self.player_supply_custom_mult = 0
   else
-    self:srw_apply_upkeep_penalty(faction);
+    self:apply_upkeep_penalty(faction);
     self:calculate_supply_balance(faction);
   end
 

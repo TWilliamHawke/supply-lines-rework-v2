@@ -4,7 +4,8 @@ function Supply_lines_rework:add_mct_listeners()
     "MctInitialized",
     true,
     function(context)
-      self:init_mcm(context)
+      self:mct_init(context)
+      self:logCore("MCT IS INIT")
     end,
     true
   )
@@ -16,8 +17,9 @@ function Supply_lines_rework:add_mct_listeners()
     "MctFinalized",
     true,
     function(context)
-      self:init_mcm(context)
-      self:finalize_mcm()
+      self:mct_init(context)
+      self:mct_finalize()
+      self:logCore("MCT FINALIZED")
     end,
     true
   )

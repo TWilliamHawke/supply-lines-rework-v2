@@ -1,4 +1,4 @@
-function Supply_lines_rework:init_mcm(context)
+function Supply_lines_rework:mct_init(context)
   local mct = context:mct()
   local supply_lines_rw = mct:get_mod_by_key("supply_lines_rw")
 

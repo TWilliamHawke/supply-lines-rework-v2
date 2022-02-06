@@ -19,19 +19,19 @@ function Supply_lines_rework:change_army_tooltip(component)
     end;
   end;
 
-  local text = "Supply for this army: "..army_supply;
   local army_discounts = {};
-
 
   for key, value in pairs(self.group_discount) do
     local start_pos, end_pos = key:find(lord_name);
     if(start_pos) then
       local group_name = key:sub(end_pos + 2, -1);
-      army_discounts[group_name] = value;
+      local group_key = self.units_group_overwriting[key] or self.units_group_localisation[group_name];
+      army_discounts[group_key] = value;
     end
   end;
 
   local lord_alias = self.lord_aliases[lord_name] or "empty"
+  local skills_discounts = {};
 
   for key, value in pairs(self.lord_skills_discount) do
     local start_pos, end_pos = key:find(lord_alias);
@@ -41,18 +41,32 @@ function Supply_lines_rework:change_army_tooltip(component)
 
     if(self.selected_character:has_skill(skill1) or self.selected_character:has_skill(skill2)) then
       local group_name = key:sub(end_pos + 2, -1);
-
-      if (army_discounts[group_name] == nil) then
-        army_discounts[group_name] = value[1];
-      else
-        army_discounts[group_name] = army_discounts[group_name] + value[1];
-      end;
-
+      local group_key = self.units_group_overwriting[key] or self.units_group_localisation[group_name];
+      skills_discounts[group_key] = value[1];
     end;
   end; --of loop
 
-  for group_name, value in pairs(army_discounts) do
-    text = text.."\n[[col:yellow]]"..group_name..":[[/col]] "..tostring(value);
+  --concat tables
+  for key, value in pairs(skills_discounts) do
+    if (army_discounts[key] == nil) then
+      army_discounts[key] = value;
+    else
+      army_discounts[key] = army_discounts[key] + value;
+    end;
+  end;
+
+  --construct tooltip
+  local text = "Supply for this army: "..army_supply;
+
+  for group_key, value in pairs(army_discounts) do
+    if group_key ~= "" and value ~= 0 then
+      ----value > 0 ? "+1" : "-1"
+      local valueText = value > 0 and "+"..tostring(value) or tostring(value);
+      local groupText = self:get_localised_string(group_key)
+      --its like a ||= b
+      groupText = groupText == "" and group_key:sub(4, -1) or groupText;
+      text = text.."\n[[col:yellow]]"..groupText..":[[/col]] "..valueText;
+    end;
   end;
 
   if is_uicomponent(component) then 

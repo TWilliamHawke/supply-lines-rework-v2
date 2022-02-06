@@ -19,9 +19,6 @@ function Supply_lines_rework:set_tooltip_text_treasury(faction, component_name)
     tooltip_text = self:construct_treasury_tooltip(faction)
   end;
 
-  --core:trigger_custom_event("SupplyLinesReworkInit", {["mct"] = self, ["mp_sent"] = true});
-
-
   --apply text
   if is_uicomponent(component) then 
     component:SetTooltipText(tooltip_text, true)
