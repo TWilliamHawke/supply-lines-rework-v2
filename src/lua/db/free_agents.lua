@@ -1,3 +1,4 @@
+--keys from db/agent_subtypes_tables
 Supply_lines_rework.free_agents = {
   ["dlc06_dwf_master_engineer_ghost"] = true,
   ["dlc06_dwf_runesmith_ghost"] = true,

@@ -19,27 +19,9 @@ swordsmen
 tank
 wagon
 
-ror
-archers_ror
-artillery_wagon_ror
-artillery_ror
-demigryph_ror
-flagellants_ror
-free_company_ror
-greatswords_ror
-handgunners_ror
-huntsmen_ror
-magic_machine_ror
-swordsmen_ror
-reiksguard_ror
-
 ulric_cult
 knight_white_wolf
-ulric_cult_ror
-knight_white_wolf_ror
 taal_cult
 rhya
 elite_hangunners
-elite_hangunners_ror
 knights_other
-knights_other_ror

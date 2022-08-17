@@ -1,3 +1,5 @@
+--keys is ids from db/building_superchains_tables
+--great bastion should be here
 Supply_lines_rework.gates_superchain = {
   ["wh2_main_sch_fortress_gate_eagle"] = 1,
   ["wh2_main_sch_fortress_gate_griffon"] = 1,

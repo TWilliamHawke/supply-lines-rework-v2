@@ -1,3 +1,4 @@
+--uses in match() function for main building tooltip
 Supply_lines_rework.main_building_matches = {
   "special_settlement",
   "outpostnorsca",

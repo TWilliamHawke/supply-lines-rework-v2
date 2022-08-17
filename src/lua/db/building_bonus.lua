@@ -1,3 +1,5 @@
+--keys from db/building_levels_tables
+--only red and blue buildings
 Supply_lines_rework.building_unit_bonus = {
   --wef
     -- ["wh_dlc05_wef_spellsingers_1"] = 2,

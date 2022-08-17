@@ -1,5 +1,6 @@
+--uses in lord_skill_discount.lua instead of lord id
+--keys from db/agent_subtypes_tables
 Supply_lines_rework.lord_aliases = {
-  --from agent_subtypes_tables
   --vcounts
     ["pro02_vmp_isabella_von_carstein"] = "Isabella",
     ["wh2_dlc11_vmp_bloodline_von_carstein"] = "Carstain",

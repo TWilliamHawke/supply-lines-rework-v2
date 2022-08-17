@@ -38,7 +38,7 @@ function Supply_lines_rework:set_building_tooltip(component)
   self:logDebug("supply_balance_text was set correctly");
 
   cm:callback(function()
-    self:finalize_unit_tooltip(component, supply_text, "\n")
+    self:finalize_unit_tooltip(component, self:form_yellow_line(supply_text), "\n")
   end, 0.1);
 
   
