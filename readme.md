@@ -38,17 +38,13 @@ Add support for new unit. Without this unit will be marked as unknown. Also allo
 __Parameters:__
 __unit_key:__ unit id from main_units_table
 __supply_points:__ defines how much supply points will consume this unit
-__unit_group:__ correctly defined groups will allow lords to decrease supply cost for this unit. You can find already existing groups in unit_groups folder. You also can add new group (see bellow) or set this param to "none"
+__unit_group:__ correctly defined groups will allow lords to decrease supply cost for this unit. You can find already existing groups in text/db/supply_lines_units_groups.loc. You also can add new group or set this param to "none"
 
 Example:
 ```lua
 --Carroburg Swordsmen will consume 3 supply points and will belong to greatswords group
-supply_lines_rw:set_unit_data("emp_inf_carroburg_greatswords", 3, "greatswords")
+supply_lines_rw:set_unit_data("emp_inf_carroburg_greatswords", 3, "srw_emp_greatswords")
 ```
----
-__supply_lines_rw:add_unit_group_localisation(unit_group, localisation_key)__
-If you want to create new unit group
-
 ---
 __supply_lines_rw:add_unit_group_discount(lord_key, unit_group, value)__
 Add
@@ -61,9 +57,9 @@ __value:__ how much supply cost for units in this group will change in this lord
 Example:
 ```lua
 --all stegadons in Kroq Gar army will consume 1 supply points less
-supply_lines_rw:add_unit_group_discount("wh2_main_lzd_kroq_gar", "stegadons", -1)
+supply_lines_rw:add_unit_group_discount("wh2_main_lzd_kroq_gar", "srw_lzd_stegadons", -1)
 --all saurus in Tehenhauin army will consume 2 additional supply points per unit
-supply_lines_rw:add_unit_group_discount("wh2_dlc12_lzd_tehenhauin", "saurus", 2)
+supply_lines_rw:add_unit_group_discount("wh2_dlc12_lzd_tehenhauin", "srw_lzd_saurus", 2)
 ```
 
 ---

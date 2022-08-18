@@ -14,7 +14,7 @@ function Supply_lines_api:set_unit_data(unit_key, unit_value, unit_group)
     return;
   end;
 
-  if(unit_group == nil) then
+  if(unit_group == nil or unit_group == "") then
     unit_group = "none";
   end;
 
