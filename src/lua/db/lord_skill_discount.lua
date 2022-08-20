@@ -1,4 +1,6 @@
 --lord name from lords_aliases.lua
+--unit group name from localisation table
+--skills key from db/character_skills_tables
 Supply_lines_rework.lord_skills_discount = {
   --empire
     ["Hunter-srw_emp_huntsmen"] = { -1, "wh2_dlc13_skill_emp_hunts_marshal_unique_1" },
@@ -86,7 +88,7 @@ Supply_lines_rework.lord_skills_discount = {
     ["Vlad-srw_ror"] = { -1, "wh2_dlc17_skill_vmp_vlad_unique_monstrous_strength" },
     ["Vlad-srw_all_dragons"] = { -1, "wh2_dlc17_skill_vmp_vlad_unique_monstrous_strength" },
     ["Vlad-srw_all_artillery"] = { -1, "wh2_dlc17_skill_vmp_vlad_unique_monstrous_strength" },
-    ["Vlad-srw_none"] = { -1, "wh2_dlc17_skill_vmp_vlad_unique_monstrous_strength" },
+    ["Vlad-none"] = { -1, "wh2_dlc17_skill_vmp_vlad_unique_monstrous_strength" },
     ["Mixu_Knight-srw_vmp_black_knights"] = { -1, "mixu_vmp_bloodline_fallen_knight_special_2_brothers_in_death" },
     ["Mixu_Knight-srw_vmp_blood_knights"] = { -1, "mixu_vmp_bloodline_fallen_knight_special_2_brothers_in_death" },
     ["Mixu_Knight-srw_vmp_ghost_cav"] = { -1, "mixu_vmp_bloodline_fallen_knight_special_2_brothers_in_death" },
