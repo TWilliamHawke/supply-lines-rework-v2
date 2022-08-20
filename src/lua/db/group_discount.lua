@@ -1,5 +1,5 @@
 --lord key from db/agent_subtypes_tables
---unit group name from localisation
+--unit group name from localisation table
 Supply_lines_rework.group_discount = {
   --empire
     ["emp_karl_franz-srw_emp_greatswords"] = -2,

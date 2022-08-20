@@ -1,5 +1,5 @@
-###If you want to add a suppurt for new units/lords or change 
-First of all, you need to subscribe on SupplyLinesReworkInit event. This works almost the same as Mod Configuration Tool.
+###API documentation
+First of all, you need to subscribe on __SupplyLinesReworkInit__ event. This works almost the same as Mod Configuration Tool.
 
 
 ```lua
@@ -51,7 +51,7 @@ Add
 
 __Parameters:__
 __lord_key:__ lord id from agent_subtypes_tables
-__unit_group:__ use a group from unit_groups folder or created by previous method
+__unit_group:__ use a group from supply_lines_units_groups.loc or your own
 __value:__ how much supply cost for units in this group will change in this lord's army. Negative value - less points, positive value - more points
 
 Example:
