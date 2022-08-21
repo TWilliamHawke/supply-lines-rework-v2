@@ -9,6 +9,12 @@ function Supply_lines_api:add_lord_skill_discount(lord_key, unit_group, value, l
     return;
   end;
 
+  local text = effect.get_localised_string(string);
+  if(text == "") then
+    self:log("WARNING: Localisation string for unit group does not exist")
+
+  end;
+
   if (type(value) ~= "number" or value == nil) then
     self:log("ERROR: Third argument in add_lord_skill_discount method should be a number")
     return;

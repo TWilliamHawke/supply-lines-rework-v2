@@ -14,7 +14,7 @@ function Supply_lines_rework:set_tooltip_text_treasury(faction, component_name)
   elseif culture == "wh_main_sc_brt_bretonnia" then
     tooltip_text = self:get_localised_string("SRW_Subculture_Text_bretonnia")
   elseif self.player_supply_custom_mult == 0 then
-    tooltip_text = "Your units doesn`t need addition supply"
+    tooltip_text = self:get_localised_string("SRW_zero_mult_text")
   else
     tooltip_text = self:construct_treasury_tooltip(faction)
   end;

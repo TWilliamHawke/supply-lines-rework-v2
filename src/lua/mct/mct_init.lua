@@ -50,12 +50,6 @@ function Supply_lines_rework:mct_init(context)
   self.big_city_penalty = tonumber(big_city_penalty_cfg:get_finalized_setting())
   big_city_penalty_cfg:set_uic_visibility(self.enable_supply_balance)
 
-  if self.enable_logging_debug then
-    self.enable_logging = true
-    self.enable_logging_ai = true
-    self:logDebug("Debug mode is enable");
-  end;
-
   if not is_ai_enable then
     self.ai_supply_mult = 0
   end;

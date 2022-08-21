@@ -2,11 +2,18 @@ function Supply_lines_rework:get_localised_string(string)
   local game_language = self:get_game_language()
 
   if game_language == "RU" then
-    local ru_text = effect.get_localised_string(string.."_ru")
-    if( ru_text ~= "") then
-      return ru_text;
+    local text_ru = effect.get_localised_string(string.."_ru")
+    if( text_ru ~= "") then
+      return text_ru;
     end;
   end;
-    return effect.get_localised_string(string)
+
+  local text = effect.get_localised_string(string);
+
+  if(text == "") then
+    return string;
+  else
+    return text;
+  end;
 end;
 

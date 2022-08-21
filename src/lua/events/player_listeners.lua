@@ -33,10 +33,6 @@ core:add_listener(
     self:log("======================");
     self:log("APPLY UPKEEP (TURN END)");
     self:apply_upkeep_penalty(faction);
-
-    if self.enable_logging_debug then
-      self:create_new_log()
-    end;
   end,
   true
 );

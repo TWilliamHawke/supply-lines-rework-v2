@@ -54,7 +54,10 @@ function Supply_lines_rework:change_army_tooltip(component)
   end;
 
   --construct tooltip
-  local text = "Supply for this army: "..army_supply;
+  local tooltip_text = self:get_localised_string("SRW_army_suply_cost");
+  tooltip_text = string.gsub(tooltip_text, "SRW_Cost", tostring(army_supply));
+
+  local units_list_text = "";
 
   for group_key, value in pairs(army_discounts) do
     if group_key ~= "" and value ~= 0 then
@@ -64,11 +67,15 @@ function Supply_lines_rework:change_army_tooltip(component)
       local groupText = self:get_localised_string(group_key)
       --its like a ||= b
       groupText = groupText == "" and group_key:sub(4, -1) or groupText;
-      text = text.."\n[[col:yellow]]"..groupText..":[[/col]] "..valueText;
+      units_list_text = units_list_text.."\n[[col:yellow]]"..groupText..":[[/col]] "..valueText;
     end;
   end;
 
+  if units_list_text ~= "" then
+    tooltip_text = tooltip_text..self:get_localised_string("SRW_army_tooltip_explanation")..units_list_text
+  end;
+
   if is_uicomponent(component) then 
-    component:SetTooltipText(text, true)
+    component:SetTooltipText(tooltip_text, true)
   end;
 end;
